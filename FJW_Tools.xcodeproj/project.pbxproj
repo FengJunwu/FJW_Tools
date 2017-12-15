@@ -15,7 +15,6 @@
 		ED0D44151F025CBA00EFC758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0D44131F025CBA00EFC758 /* LaunchScreen.storyboard */; };
 		ED0D44201F025CBA00EFC758 /* FJW_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0D441F1F025CBA00EFC758 /* FJW_ToolsTests.m */; };
 		ED0D442B1F025CBA00EFC758 /* FJW_ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0D442A1F025CBA00EFC758 /* FJW_ToolsUITests.m */; };
-		ED162E961FE409EF00E00DAE /* FJWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED162E951FE409EF00E00DAE /* FJWViewController.m */; };
 		ED382A311F03B42D00527C2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED382A301F03B42D00527C2E /* SystemConfiguration.framework */; };
 		ED382A341F03B5C400527C2E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ED382A331F03B5C400527C2E /* Reachability.m */; };
 /* End PBXBuildFile section */
@@ -54,8 +53,6 @@
 		ED0D44261F025CBA00EFC758 /* FJW_ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJW_ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D442A1F025CBA00EFC758 /* FJW_ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJW_ToolsUITests.m; sourceTree = "<group>"; };
 		ED0D442C1F025CBA00EFC758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED162E941FE409EF00E00DAE /* FJWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJWViewController.h; sourceTree = "<group>"; };
-		ED162E951FE409EF00E00DAE /* FJWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJWViewController.m; sourceTree = "<group>"; };
 		ED382A301F03B42D00527C2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		ED382A321F03B5C400527C2E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		ED382A331F03B5C400527C2E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -113,8 +110,6 @@
 			children = (
 				ED382A321F03B5C400527C2E /* Reachability.h */,
 				ED382A331F03B5C400527C2E /* Reachability.m */,
-				ED162E941FE409EF00E00DAE /* FJWViewController.h */,
-				ED162E951FE409EF00E00DAE /* FJWViewController.m */,
 				ED0D44081F025CBA00EFC758 /* AppDelegate.h */,
 				ED0D44091F025CBA00EFC758 /* AppDelegate.m */,
 				ED0D440B1F025CBA00EFC758 /* ViewController.h */,
@@ -301,7 +296,6 @@
 				ED0D440D1F025CBA00EFC758 /* ViewController.m in Sources */,
 				ED0D440A1F025CBA00EFC758 /* AppDelegate.m in Sources */,
 				ED382A341F03B5C400527C2E /* Reachability.m in Sources */,
-				ED162E961FE409EF00E00DAE /* FJWViewController.m in Sources */,
 				ED0D44071F025CBA00EFC758 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
